@@ -1,24 +1,24 @@
 # Adaptive.js Component Workshop
 
-We use Git to switch between the steps in the workshop. Look through some of [Git's documentation](http://git-scm.com/documentation) if you're not already familiar with Git. Also, we use Require.js in most of the JavaScript files in the project. Its documentation is found [here](http://requirejs.org/docs/start.html).
-
 Follow the installation steps in the **Workshop Pre-requisites** section below to get your computer ready for the workshop. Once you're done, follow the directions in the **Ready to Start** section.
 
 
 ## Workshop Pre-Requisites
 
-To run this workshop, install all the prerequisites. Follow steps in the [Install the Adaptive.js SDK](http://adaptivejs.mobify.com/v1.0/docs/install) tutorial to install everything correctly.
+We use Git to move through and switch between the steps in the workshop. [Install Git](http://git-scm.com/downloads) and look through some of [the documentation](http://git-scm.com/documentation) if you're not already familiar with how Git works.
 
-To install the workshop:
+You must also first follow the steps in the [Install the Adaptive.js SDK](http://adaptivejs.mobify.com/v1.0/docs/install) tutorial to install Adaptive.js onto your computer.
+
+Follow these steps to install the workshop:
 
 1. Launch the Terminal app.
 2. In the terminal, change directories to your development folder with the command:
 
     ```
-    cd path/to/my/project/folder
+    cd path/to/my/target/folder
     ```
 
-3. Run the following command to clone the Merlin's Potions sample site workshop repository:
+3. Run the following command to clone this workshop repository to your computer:
 
     ```
     git clone https://github.com/mobify/workshop--adaptivejs-components.git
@@ -30,14 +30,15 @@ To install the workshop:
     cd workshop--adaptivejs-components/
     ```
 
+
 ## Ready to Start
 
 Once you install the workshop, you're ready to move on to the next step.
 
 1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the project set up branch:
 
-```
-git checkout set-up
-```
+    ```
+    git checkout step-1
+    ```
 
-2. Now, follow this link to the directions in the set up branch [README](https://github.com/mobify/workshop--adaptivejs-components/blob/set-up/README.md).
+2. Now, follow this link to the directions in the set up branch [README](https://github.com/mobify/workshop--adaptivejs-components/blob/step-1/README.md).
