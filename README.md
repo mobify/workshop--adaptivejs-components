@@ -1,62 +1,32 @@
-# Introduction “A”
+# Introduction to Stencil
 
-In this step, we are going to learn exactly what an Adaptive component is and how that relates to an Adaptive.js project.
-
-## What’s a Component?
-
-Components can be thought of as a single reusable user interface pattern. These UI patterns can be as simple as a button, icon or breadcrumb, to as complex as an accordion, carousel or tab bar.
-
-The important thing to understand is that a single component contains all the necessary pieces for that pattern to work as a single unit:
-
-* Dust.js template – defines the component markup
-* Sass stylesheet – defines the component appearance
-* UI Javascript (optional) – defines the component behaviour
+In this step we are going to learn how a Stencil Component is similar to, as well as they differ from, Adaptive Components and how they work with Adaptive.js projects.
 
 
-## Why are Components Important?
+## What is Stencil?
 
-Building your site or app with components in mind has many benefits, including (but not limited to) separation of concerns, maintainability and reusability.
+Stencil is just the name for our (Mobify's) *reusable, curated set* of Adaptive Components that can be installed and re-used across projects.
 
-### Separation of Concerns
-
-Use components as a way of categorizing the design of your user interface. Each component is responsible for doing one thing and doing that one thing well.
-
-### Maintainability
-
-Organizing your front-end code base into components, it becomes easier to isolate problems as they arise as well as reduce complexity in an overall system (such as your Adaptive.js project). Maintaining components is much easier in the long run than having redundant code spread throughout any number of files and folders.
-
-### Reusability
-
-By having a library of components, you give ensuring that all of your design patterns are easy to access at any time. Reuse these patterns to reduce redundancy and prevent code-base bloat.
-
-This is not only true for a single project, but for reuse across multiple projects. That’s where Stencil comes into the picture!
-
-> **What’s Stencil?**
->
-> Good question! This is an important topic that deserves a whole section of it’s own, so we’ll get to that later in the workshop.
+At their core Stencil components are just Adaptive Components with a bit of extra plumbing. That extra plumbing is to help test and maintain that component because it is completely isolated from any project.
 
 
-## That’s All Great, But What Does it Look Like in Practice?
+## How Do They Work with Adaptive.js Projects?
 
-As a very simple example, the below show’s what it might look like if you were to use a component in an Adaptive.js project if we were to add a Select component to a PDP template:
+Stencil was built to be very easy to use in Adaptive.js projects. As such, there are command line tools that are used to install (or uninstall) Stencil components to a project. Once they've been installed, they can be immediately integrated into any template!
 
-```html
-<!— pdp.dust —>
-<div class=“t-pdp__product-options”>
+We'll go through all the steps for adding a Stencil to a project in the next step!
 
-    <!— this is what a component might look like! —>
-    {@c-select id=“quantity” name=“quantity”}
-        <option value=“1”>1</option>
-        <option value=“2”>2</option>
-        <option value=“3”>3</option>
-    {/c-select}
 
-</div>
-```
+## What Stencils Are There That I Can Use?
 
-Of course, there are many different ways that a component might look, but we’ll look at all the ways components work in depth later.
+You've already seen one in the previous step: `stencil-select`! While there are many, for the purpose of this Workshop we will only touch on just the following:
+
+* Card Component (a.k.a. `stencil-card`)
+* Tabs Component (a.k.a. `stencil-tabs`)
+
+In the proceeding Workshop steps we are going to learn how to install these Stencil components, how include them in a template, and how to customize their markup, styles and functionality.
 
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the set up branch [README](https://github.com/mobify/workshop--adaptivejs-components/blob/step-1/README.md).
+Now, follow this link to the directions in the _Part 1: Install Components_ branch [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-1\/install-components/README.md).
