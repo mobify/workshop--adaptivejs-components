@@ -1,5 +1,7 @@
 # Adaptive.js Component Workshop
 
+This Workshop will guide you through an introduction to Adaptive Components, how to install components, how to customize a component and how to create one from scratch.
+
 Follow the installation steps in the **Workshop Pre-requisites** section below to get your computer ready for the workshop. Once you're done, follow the directions in the **Ready to Start** section.
 
 
