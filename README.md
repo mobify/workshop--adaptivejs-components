@@ -1,12 +1,14 @@
-# Introduction “A”
+# Introduction To Adaptive Components
 
 In this step, we are going to learn exactly what an Adaptive component is and how that relates to an Adaptive.js project.
 
 ## What’s a Component?
 
-Components can be thought of as a single reusable user interface pattern. These UI patterns can be as simple as a button, icon or breadcrumb, to as complex as an accordion, carousel or tab bar.
+Components can be thought of as a single reusable user interface pattern. These UI patterns can be as simple as a button, icon or breadcrumb, to as complex as an accordion, carousel or tab bar. The important thing to understand is that a single component contains all the necessary pieces for that pattern to work as a single unit, which may include HTML, CSS and Javascript.
 
-The important thing to understand is that a single component contains all the necessary pieces for that pattern to work as a single unit:
+## What's an Adaptive Component?
+
+An *Adaptive* Component is a component built into within the framework of Adaptive.js. This means that Adaptive Components have conventions and certain requirements in order to make them work in an Adaptive.js project. Adaptive Components are composed of the following files:
 
 * Dust.js template – defines the component markup
 * Sass stylesheet – defines the component appearance
@@ -41,10 +43,10 @@ This is not only true for a single project, but for reuse across multiple projec
 As a very simple example, the below show’s what it might look like if you were to use a component in an Adaptive.js project if we were to add a Select component to a PDP template:
 
 ```html
-<!— pdp.dust —>
+<!-- pdp.dust -->
 <div class=“t-pdp__product-options”>
 
-    <!— this is what a component might look like! —>
+    <!-- this is what a component might look like! -->
     {@c-select id=“quantity” name=“quantity”}
         <option value=“1”>1</option>
         <option value=“2”>2</option>
