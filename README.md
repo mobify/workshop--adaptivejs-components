@@ -61,4 +61,4 @@ Of course, there are many different ways that a component might look, but we’l
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the set up branch [README](https://github.com/mobify/workshop--adaptivejs-components/blob/step-1/README.md).
+Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-b\/intro-to-stencil/README.md).
