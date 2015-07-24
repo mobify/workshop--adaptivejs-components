@@ -1,32 +1,71 @@
-# Introduction to Stencil
+# Part 1a: Install Components
 
-In this step we are going to learn how a Stencil Component is similar to, as well as they differ from, Adaptive Components and how they work with Adaptive.js projects.
-
-
-## What is Stencil?
-
-Stencil is just the name for our (Mobify's) *reusable, curated set* of Adaptive Components that can be installed and re-used across projects.
-
-At their core Stencil components are just Adaptive Components with a bit of extra plumbing. That extra plumbing is to help test and maintain that component because it is completely isolated from any project.
+Now that we understand what Adaptive and Stencil components are, let's get out hands dirty in some code by installing some examples!
 
 
-## How Do They Work with Adaptive.js Projects?
+## Installing Stencil Components
 
-Stencil was built to be very easy to use in Adaptive.js projects. As such, there are command line tools that are used to install (or uninstall) Stencil components to a project. Once they've been installed, they can be immediately integrated into any template!
+Open up your Terminal and change to the project directory that we've pre-generated for you.
 
-We'll go through all the steps for adding a Stencil to a project in the next step!
+```
+cd my-project
+```
+
+Let's install the Card and Tabs Stencil components using the following commands:
+
+```
+grunt component:install:card
+```
+
+As well as...
+
+```
+grunt component:install:tabs
+```
+
+> __Note__ The `grunt component` command must be executed from inside an Adaptive.js project
+
+What this command does is install the Stencil component via Bower and "auto-magically" modify the necessary files to ensure that the component can be used right away.
 
 
-## What Stencils Are There That I Can Use?
+## Add the Stencils to a Template
 
-You've already seen one in the previous step: `stencil-select`! While there are many, for the purpose of this Workshop we will only touch on just the following:
+Now we've installed our two Stencil components, let's go ahead and add them to a template `dust` file.
 
-* Card Component (a.k.a. `stencil-card`)
-* Tabs Component (a.k.a. `stencil-tabs`)
+Open `/my-project/app/pages/home/home.dust` in your editor of choice. In it, add the following:
 
-In the proceeding Workshop steps we are going to learn how to install these Stencil components, how include them in a template, and how to customize their markup, styles and functionality.
+```html
+{@c-card title="My Card Title"}
+    <p>Hello world!</p>
+{/c-card}
+
+{@c-accordion}
+    {@c-accordion__item title="Item 1"}
+        <p>Item 1 Content goes here!</p>
+    {/c-accordion__item}
+
+    {@c-accordion__item title="Item 2"}
+        <p>Item 2 Content goes here!</p>
+    {/c-accordion__item}
+{/c-accordion}
+```
+
+
+## Preview the Installed Components
+
+In the terminal, run the following command:
+
+```
+grunt preview
+```
+
+Open up your browser of choice and navigate to [this page](https://preview.mobify.com/?url=http%3A%2F%2Fwww.mobify.com&site_folder=http%3A%2F%2Flocalhost%3A8080%2Fadaptive.js&disabled=0&domain=&scope=1). Click the **"Preview"** button, as per the below screenshot:
+
+{INSERT IMAGE OF PREVIEW PAGE POINTING TO BUTTON}
+
+Once the preview site loads, you should see the Homepage template fully rendered along with the two Stencil components we added above!
 
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-1\/install-components/README.md).
+Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-1b\/customize-card-component-markup/README.md).
