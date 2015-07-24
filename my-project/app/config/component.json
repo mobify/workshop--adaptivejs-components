@@ -1,5 +1,0 @@
-{
-    "_comment": "You can configure the location of your installed stencils and your locally created components here.",
-    "stencil": "bower_components",
-    "local": "components"
-}
