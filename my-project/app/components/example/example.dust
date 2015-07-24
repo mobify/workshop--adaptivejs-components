@@ -1,3 +1,0 @@
-<div {?id}id="{.}"{/id} class="c-example {class}" {?role}role="{.}"{/role} data-adaptivejs-component="example">
-    Component stuff goes here!
-</div>
