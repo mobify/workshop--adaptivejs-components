@@ -1,0 +1,14 @@
+{
+    "activeProfile": "preview",
+    "profiles": {
+        "preview": {
+            "bundleUrl": "http://localhost:8080/adaptive.js",
+            "siteUrl": "www.mobify.com"
+        },
+        "production": {
+            "bundleUrl": "",
+            "siteUrl": "www.mobify.com",
+            "production": true
+        }
+    }
+}
