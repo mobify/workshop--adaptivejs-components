@@ -43,4 +43,4 @@ Once you install the workshop, you're ready to move on to the next step.
     git checkout step-1
     ```
 
-2. Now, follow this link to the directions in the set up branch [README](https://github.com/mobify/workshop--adaptivejs-components/blob/step-1/README.md).
+2. Now, follow this link to the directions in the set up branch [README](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-a\/intro-to-adaptive-components).
