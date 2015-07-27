@@ -1,4 +1,4 @@
-# Part 1a: Install Components
+# Part 1: Install Components
 
 Now that we understand what Adaptive and Stencil components are, let's get out hands dirty in some code by installing some examples!
 
