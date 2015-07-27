@@ -1,69 +1,89 @@
-# Part 1a: Install Components
+# Part 2a: Customize the Card Component Markup
 
-Now that we understand what Adaptive and Stencil components are, let's get out hands dirty in some code by installing some examples!
-
-
-## Installing Stencil Components
-
-Open up your Terminal and change to the project directory that we've pre-generated for you.
-
-```
-cd my-project
-```
-
-Let's install the Card and Tabs Stencil components using the following commands:
-
-```
-grunt component:install:card
-```
-
-As well as...
-
-```
-grunt component:install:tabs
-```
-
-> __Note__ The `grunt component` command must be executed from inside an Adaptive.js project
-
-What this command does is install the Stencil component via Bower and "auto-magically" modify the necessary files to ensure that the component can be used right away.
+So far we've installed a few components, we've added them to our `home.dust` template and showed how easy they are to use by throwing in some sample content. Now we will go over how to customize the component markup.
 
 
-## Add the Stencils to a Template
+## Component Output
 
-Now we've installed our two Stencil components, let's go ahead and add them to a template `dust` file.
+Let's take a look at how the Card component that we added last step looks like when it renders on the page.
 
-Open `/my-project/app/pages/home/home.dust` in your editor of choice. In it, add the following:
+We added this to `home.dust`:
 
 ```html
 {@c-card title="My Card Title"}
     <p>Hello world!</p>
 {/c-card}
-
-{@c-accordion}
-    {@c-accordion__item title="Item 1"}
-        <p>Item 1 Content goes here!</p>
-    {/c-accordion__item}
-
-    {@c-accordion__item title="Item 2"}
-        <p>Item 2 Content goes here!</p>
-    {/c-accordion__item}
-{/c-accordion}
 ```
 
+Here is the output:
 
-## Preview the Installed Components
+```html
+<section class="c-card">
+    <header class="c-card__header">
+        <h2 class="c-card__title">My Card Title</h2>
+    </header>
 
-In the terminal, run the following command:
+    <div class="c-card__body">
+        <p>Hello world!</p>
+    </div>
 
+    <footer class="c-card__footer"></footer>
+</section>
 ```
-grunt preview
+
+So, what if we need to use a very specific set of markup for the `header`. What if we want to replace the `h2` with an `h3`? How do we do that? Simple! We make use of _component bodies_.
+
+
+## Component Bodies
+
+Component bodies are predefined regions in a component that usually have default markup, but can be replaced with custom markup. A single component can have it may have one body, multiple bodies or no bodies at all.
+
+Our Card example has three available bodies: 'header', the default 'body' and a 'footer'.
+
+Let's customize our Card component's header body. Open up `home.dust` and replace the `{@card}` block with the following:
+
+```html
+{@c-card}
+{:header}
+    <h3 class="c-card__title">My Custom Card Title Markup</h3>
+{/c-card}
 ```
 
-Open up your browser of choice and navigate to [this page](https://preview.mobify.com/?url=http%3A%2F%2Fwww.mobify.com&site_folder=http%3A%2F%2Flocalhost%3A8080%2Fadaptive.js&disabled=0&domain=&scope=1). Click the **"Preview"** button, as per the below screenshot:
+Back in your browser, refresh the page and observe the change.
 
-{INSERT IMAGE OF PREVIEW PAGE POINTING TO BUTTON}
+Look at that! The `h2` element is now the `h3` tag that we passed into the header.
 
-Once the preview site loads, you should see the Homepage template fully rendered along with the two Stencil components we added above!
+But wait, notice anything strange?
+
+That's right, we're now missing content in the `.c-card__body` container. The reason this happened is because in our code above, we did not include content for the default body.
+
+
+## Multiple Bodies
+
+We are not limited to making changes to just one component body, we can customize multiple component bodies at once.
+
+In our example code, we can remedy our missing content very easily by making this next change in `home.dust`. While we're at in, why don't we also include the footer body?
+
+Replace that `{@c-card}` block with the following:
+
+```html
+{@c-card}
+{:header}
+    <h3 class="c-card__title">My Custom Card Title Markup</h3>
+{:body}
+    <p>Return of the body!</p>
+{:footer}
+    {@c-card__action}Ooh, I'm a button!{/c-card__action}
+{/c-card}
+```
+
+Now open up your browser, refresh and confirm that all of our bodies (header, default and footer) render correctly.
+
+> __Note__
+>
+> Understand that the component will automatically insert into the default body any content between the component's open and close tag when there is no reference to any particular body.
+>
+> The default body is always named `body`.
 
 
 ## Done! Onward!
