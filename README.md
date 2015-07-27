@@ -29,4 +29,4 @@ In the proceeding Workshop steps we are going to learn how to install these Sten
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-1\/install-components/README.md).
+Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-1a\/install-components/README.md).
