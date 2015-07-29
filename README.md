@@ -8,11 +8,11 @@ Components can be thought of as a single reusable user interface pattern. These 
 
 ## What's an Adaptive Component?
 
-An *Adaptive* Component is a component built into within the framework of Adaptive.js. This means that Adaptive Components have conventions and certain requirements in order to make them work in an Adaptive.js project. Adaptive Components are composed of the following files:
+An *Adaptive* Component is a component built for the Adaptive.js framework. This means that Adaptive Components have conventions and certain requirements in order to make them work in an Adaptive.js project. Adaptive Components are composed of the following files:
 
-* Dust.js template – defines the component markup
-* Sass stylesheet – defines the component appearance
-* UI Javascript (optional) – defines the component behaviour
+* Dust.js template – defines the component’s markup
+* Sass stylesheet – defines the component’s appearance
+* UI Javascript (optional) – defines the component’s behaviour
 
 
 ## Why are Components Important?
@@ -21,7 +21,7 @@ Building your site or app with components in mind has many benefits, including (
 
 ### Separation of Concerns
 
-Use components as a way of categorizing the design of your user interface. Each component is responsible for doing one thing and doing that one thing well.
+Use components as a way of categorizing the design of your user interface. Each component is responsible for doing one thing and doing that one thing well. **{{Suggest replacing second sentence here: Each component becomes responsible for providing an optimized interface element for a particular type of information display or a particular type of interaction. Pages can be assembled quickly and consistently from these building blocks.}}**
 
 ### Maintainability
 
