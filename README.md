@@ -115,9 +115,9 @@ Add the following to `_card-theme.scss`:
 }
 ```
 
-> _Remember that there is no need to define the padding or default background color, as we did that with the configurable variables, above._
+> _**Remember** there is no need to define the padding or default background color, as we did that with the configurable variables, above._
 
-Once again, refresh your preview in the browser to observe your changes!
+Once again, refresh your preview in the browser to observe that our changes above have effected all of the cards.
 
 
 ## Done! Onward!
