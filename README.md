@@ -79,11 +79,18 @@ Replace that `{@c-card}` block with the following:
 
 Now open up your browser, refresh and confirm that all of our bodies (header, default and footer) render correctly.
 
-> __Note__
+> __Note!__
 >
-> Understand that the component will automatically insert into the default body any content between the component's open and close tag when there is no reference to any particular body.
+> _Understand that the component will automatically insert into the default body any content between the component's open and close tag when there is no reference to any particular body. For example:_
 >
-> The default body is always named `body`.
+> ```
+> {@c-card}
+>     <!-- This will insert into the default body -->
+>     <p>Return of the body!</p>
+> {/c-card}
+> ```
+>
+> _The default body is always named `body`._
 
 
 ## Done! Onward!
