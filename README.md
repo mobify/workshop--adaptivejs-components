@@ -122,4 +122,4 @@ Once again, refresh your preview in the browser to observe that our changes abov
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-1b\/customize-card-component-markup/README.md).
+Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-3\/create-new-component/README.md).
