@@ -55,7 +55,7 @@ Open the global components `SCSS` file in your text editor, found at `/app/globa
 
 ## Write Custom CSS
 
-Now that we are done setting up all the necessary files, directories and imports we can move on the writing some new styles for our Card component.
+Now that we are done setting up all the necessary files, directories and imports we can move on to writing some new styles for our Card component.
 
 In your text editor, return to the `_card-theme.scss` file. Add the following:
 
@@ -98,7 +98,7 @@ Now refresh your preview in the browser and observe the new styles!
 
 So, it is worth noting that we are not limited to writing CSS for just "themes" of course. This is also the place for where you customize the look and feel of the component to make it match the design of your project! This is true for the component itself and any sub-components.
 
-Add the following to `_card-theme.scss`:
+Add the following in `_card-theme.scss`, just before the `.c-card.c--brand` CSS block:
 
 ```
 .c-card {
