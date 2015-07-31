@@ -19,12 +19,12 @@ We'll go through all the steps for adding a Stencil to a project in the next ste
 
 ## What Stencils Are There That I Can Use?
 
-You've already seen one in the previous step: `stencil-select`! While there are many, for the purpose of this Workshop we will only touch on just the following:
+You've already seen one in the previous step: `stencil-select`! While there are many, for the purpose of this Workshop we will only cover the following:
 
 * Card Component (a.k.a. `stencil-card`)
 * Tabs Component (a.k.a. `stencil-tabs`)
 
-In the proceeding Workshop steps we are going to learn how to install these Stencil components, how include them in a template, and how to customize their markup, styles and functionality.
+In the proceeding steps we are going to learn how to install these Stencil components, how to include them in a template, and how to customize their markup, styles and functionality.
 
 
 ## Done! Onward!
