@@ -109,10 +109,8 @@ define([
     };
 
     Badge.prototype.set = function(value) {
-        // Set the data attribute to the new value
         this.$el.data('value', value);
 
-        // Replace the html body with the new value
         this.$el.html(value);
     };
 
