@@ -1,6 +1,6 @@
 # Conclusion
 
-## We're Done!
+### We're Done!
 
 Congratulations! We're all done :)
 
@@ -11,6 +11,6 @@ If you would like to learn more, see below for further reading as well as Mobify
 
 ## Further Reading & Resources
 
-* ~~[Adaptive.js Component Documentation]()~~ _(coming soon)_
-* ~~[Component Tips and tricks]()~~ _(coming soon)_
-* ~~[Stencil Documentation]()~~ _(coming soon)_
+* ~~[Adaptive.js Component Documentation]()~~ _coming soon_
+* ~~[Component Tips and tricks]()~~ _coming soon_
+* ~~[Stencil Documentation]()~~ _coming soon_
