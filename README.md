@@ -9,7 +9,7 @@ Follow the installation steps in the **Workshop Pre-requisites** section below t
 
 We use Git to move through and switch between the steps in the workshop. [Install Git](http://git-scm.com/downloads) and look through some of [the documentation](http://git-scm.com/documentation) if you're not already familiar with how Git works.
 
-You must also first follow the steps in the [Install the Adaptive.js SDK](http://adaptivejs.mobify.com/v1.0/docs/install) **{{ry5n: may want to update this to the 2.0 version at http://adaptivejs.mobify.com/docs/1-install-the-adaptivejs-sdk}}** tutorial to install Adaptive.js onto your computer.
+You must also first follow the steps in the [Install the Adaptive.js SDK](http://adaptivejs.mobify.com/docs/1-install-the-adaptivejs-sdk) tutorial to install Adaptive.js onto your computer.
 
 Follow these steps to install the workshop:
 
