@@ -1,0 +1,23 @@
+// example
+// ===
+
+// Configurable Variables
+// ---
+
+$example__variable-name: true !default;
+
+
+// Example root
+// ---
+
+.c-example {
+    // Your component styles go here
+}
+
+
+// Example sub-component
+// ---
+
+.c-example__sub-component {
+    // Your component styles go here
+}
