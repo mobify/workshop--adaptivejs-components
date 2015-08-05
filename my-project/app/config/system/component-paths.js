@@ -1,0 +1,1 @@
+require.config({"paths":{"example":"components/example/example-ui"}});
