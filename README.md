@@ -1,4 +1,4 @@
-# Part 2b: Customize the Card Component Style
+# Part 3: Customize the Card Component Style
 
 Now that we've customized out Card component's markup using component bodies, we're ready to move on to the next step: __customize the component style__.
 
@@ -135,4 +135,4 @@ Once again, refresh your preview in the browser to observe that our changes abov
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-3\/create-new-component/README.md).
+Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-4-create-new-component/README.md).
