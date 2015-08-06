@@ -1,4 +1,4 @@
-# Part 3: Create a New Component
+# Part 4: Create a New Component
 
 So far we've learned about how we install and customize pre-built Stencil components in an Adaptive project. But what about when we want to create a brand new component from scratch? Fortunately, we have just the tool for that!
 
@@ -22,7 +22,7 @@ yo adaptivejs:component
 Answer the following questions as follows:
 
 1. type "badge" for the component name
-2. type this description: "The Badge component, used to display small numbers in a tight fitted space"
+2. type this description: "A small, colorful dot containing a number, often used as a counter for events such as notifications."
 3. answer `y` (or `yes`) when asked if the component has a UI script
 
 When finished, notice that all the following files have been created in `my-project/app/components/badge/`:
@@ -44,25 +44,6 @@ When finished, notice that all the following files have been created in `my-proj
   The `*-schema.js` file is where we define the components expected data structure. In other words, the schema file describes that structure that the context passed to the component dust file must be in order for the component to work. We use the [JS-Schema](http://molnarg.github.io/js-schema/) library for our schema tool.
 
 
-## Installing Local Components
-
-Components that are generated locally must be installed before they can be used.
-
-To be completely clear, note that there is a very important difference between generating a component and installing a component:
-
-**Generating** a component means to generate all the boilerplating necessary to create a component from scratch.
-
-**Installing** a component means to wire up all the plumbing necessary in order for a component to work in an Adaptive project.
-
-With our Badge component, we've already generated its files but we have not yet installed it. To do so, perform the following command in terminal:
-
-```
-grunt component:install:badge --local
-```
-
-> _**Note** that the `--local` flag **must** be included in order for this to work, otherwise the component installer will try to look for a stencil called `badge` instead of looking in the local project for the component._
-
-
 ## Customize the New Component
 
 Our goal here is to create a badge component, which is a simple UI pattern that you most often see in e-commerce sites near a cart button where the badge is the the number that represents how many items are in the cart.
@@ -70,7 +51,12 @@ Our goal here is to create a badge component, which is a simple UI pattern that 
 In `badge.dust` replace what's there with the following:
 
 ```html
-<span class="c-badge {class}" {?id}id="{id}"{/id} {?role}role="{.}"{/role} data-adaptivejs-component="badge" data-value="{value}">
+<span class="c-badge {class}"
+    {?id}id="{id}"{/id}
+    {?role}role="{role}"{/role}
+    data-value="{value}"
+    data-adaptivejs-component="badge"
+>
     {value}
 </span>
 ```
@@ -105,10 +91,10 @@ define([
     var Badge = function($el) {
         this.$el = $el;
 
-        this.set(this.$el.data('value'));
+        this.setValue(this.$el.data('value'));
     };
 
-    Badge.prototype.set = function(value) {
+    Badge.prototype.setValue = function(value) {
         this.$el.data('value', value);
 
         this.$el.html(value);
@@ -145,7 +131,7 @@ Notice our three example badge components!
 Lastly, Let's look at how you can interact with the components by setting new values for one of the badge instances. Open up your browser's developer tool or inspector, switch to the Javascript console and enter the following:
 
 ```
-$('.c-brand').first().data('component').set(38);
+$('.c-badge').first().data('component').setValue(38);
 ```
 
 Observe how the first badge on the preview page will update to read "38"!
