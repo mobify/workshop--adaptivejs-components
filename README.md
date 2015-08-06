@@ -1,4 +1,4 @@
-# Part 2a: Customize the Card Component Markup
+# Part 2: Customize the Card Component Markup
 
 So far we've installed a few components, we've added them to our `home.dust` template and showed how easy they are to use by throwing in some sample content. Now we will go over how to customize the component markup.
 
@@ -36,7 +36,7 @@ So, what if we need to use a very specific set of markup for the `header`. What 
 
 ## Component Bodies
 
-Component bodies are predefined regions in a component that usually have default markup, but can be replaced with custom markup. A single component can have it may have one body, multiple bodies or no bodies at all.
+Component bodies are predefined regions in a component that usually have default markup, but can be replaced with custom markup. A single component can have one body, multiple bodies or (sometimes) no bodies at all.
 
 Our Card example has three available bodies: 'header', the default 'body' and a 'footer'.
 
