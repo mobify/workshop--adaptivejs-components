@@ -95,4 +95,10 @@ Now open up your browser, refresh and confirm that all of our bodies (header, de
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-3-customize-style/README.md).
+1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the project set up branch:
+
+    ```
+    git checkout part-3-customize-style
+    ```
+
+2. Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-3-customize-style/README.md).
