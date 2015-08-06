@@ -19,3 +19,11 @@
 //
 // eg. @import 'components/button';
 @import 'components/example/example';
+@import 'bower_components/stencil-card/card';
+@import 'bower_components/stencil-tabs/tabs';
+
+
+// Stencil component custom styles
+// ---
+
+@import 'components/stencil-card/card-theme';

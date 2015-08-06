@@ -1,1 +1,1 @@
-require(["example"]);
+require(["example","stencil-card","stencil-tabs"]);
