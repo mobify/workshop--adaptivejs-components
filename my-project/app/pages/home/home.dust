@@ -5,6 +5,10 @@
         {@c-card}
         {:header}
             <h3 class="c-card__title">My Custom Card Title Markup</h3>
+        {:body}
+            <p>Return of the body!</p>
+        {:footer}
+            {@c-card__action}Ooh, I'm a button!{/c-card__action}
         {/c-card}
     </div>
 
