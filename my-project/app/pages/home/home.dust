@@ -2,8 +2,9 @@
 
 {<contentBlock}
     <div class="t-home__section">
-        {@c-card title="My Card Title"}
-            <p>Hello world!</p>
+        {@c-card}
+        {:header}
+            <h3 class="c-card__title">My Custom Card Title Markup</h3>
         {/c-card}
     </div>
 
