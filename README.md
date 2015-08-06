@@ -29,4 +29,10 @@ In the proceeding steps we are going to learn how to install these Stencil compo
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-1-install-components/README.md).
+1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the project set up branch:
+
+    ```
+    git checkout part-1-install-components
+    ```
+
+2. Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-1-install-components/README.md).
