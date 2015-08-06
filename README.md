@@ -95,4 +95,4 @@ Now open up your browser, refresh and confirm that all of our bodies (header, de
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-2b\/customize-card-component-style/README.md).
+Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-3-customize-style/README.md).
