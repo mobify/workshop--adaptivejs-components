@@ -22,6 +22,12 @@
             {@c-tabs__pane}Pane the second{/c-tabs__pane}
         {/c-tabs}
     </div>
+
+    <div class="t-home__section">
+        {@c-card class="c--brand" title="My Themed Card"}
+            <p>My oh my, aren't I pretty card?</p>
+        {/c-card}
+    </div>
 {/contentBlock}
 
 {<uiScripts}

@@ -1,0 +1,22 @@
+// Stencil-Card Theme
+// ===
+
+.c-card.c--brand {
+    background: $brand-color;
+    color: white;
+}
+
+.c-card.c--accent {
+    background: $accent-color;
+    color: white;
+}
+
+.c-card.c--warning {
+    background: $error-color;
+    color: white;
+
+    a,
+    .c-button {
+        color: $dark-error-color;
+    }
+}
