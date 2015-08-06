@@ -21,7 +21,7 @@ Building your site or app with components in mind has many benefits, including (
 
 ### Separation of Concerns
 
-Use components as a way of categorizing the design of your user interface. Each component is responsible for doing one thing and doing that one thing well. **{{Suggest replacing second sentence here: Each component becomes responsible for providing an optimized interface element for a particular type of information display or a particular type of interaction. Pages can be assembled quickly and consistently from these building blocks.}}**
+Use components as a way of categorizing the design of your user interface. Each component becomes responsible for providing an optimized interface element for a particular type of information display or a particular type of interaction. Pages can be assembled quickly and consistently from these building blocks.
 
 ### Maintainability
 
