@@ -1,6 +1,6 @@
 # Part 1: Install Components
 
-Now that we understand what Adaptive and Stencil components are, let's get out hands dirty in some code by installing some examples!
+Now that we understand what Adaptive and Stencil components are, let's get our hands dirty!
 
 
 ## Installing Stencil Components
@@ -14,14 +14,16 @@ cd my-project
 Let's install the Card and Tabs Stencil components using the following commands:
 
 ```
-grunt component:install:card
+grunt component:install:card --branch dev
 ```
 
 As well as...
 
 ```
-grunt component:install:tabs
+grunt component:install:tabs --branch dev
 ```
+
+> __Note__ When Adaptive components are out of beta, the `--branch dev` flag won’t be needed.
 
 > __Note__ The `grunt component` command must be executed from inside an Adaptive.js project
 
@@ -30,24 +32,27 @@ What this command does is install the Stencil component via Bower and "auto-magi
 
 ## Add the Stencils to a Template
 
-Now we've installed our two Stencil components, let's go ahead and add them to a template `dust` file.
+Now we've installed our two Stencil components, let's go ahead and add them to a template file.
 
 Open `/my-project/app/pages/home/home.dust` in your editor of choice. In it, add the following:
 
 ```html
-{@c-card title="My Card Title"}
-    <p>Hello world!</p>
-{/c-card}
+<div class="t-home__section">
+    {@c-card title="My Card Title"}
+        <p>Hello world!</p>
+    {/c-card}
+</div>
 
-{@c-accordion}
-    {@c-accordion__item title="Item 1"}
-        <p>Item 1 Content goes here!</p>
-    {/c-accordion__item}
-
-    {@c-accordion__item title="Item 2"}
-        <p>Item 2 Content goes here!</p>
-    {/c-accordion__item}
-{/c-accordion}
+<div class="t-home__section">
+    {@c-tabs}
+    {:tabStrip}
+        {@c-tabs__tab}Tab 1{/c-tabs__tab}
+        {@c-tabs__tab}Tab 2{/c-tabs__tab}
+    {:body}
+        {@c-tabs__pane}Pane the first{/c-tabs__pane}
+        {@c-tabs__pane}Pane the second{/c-tabs__pane}
+    {/c-tabs}
+</div>
 ```
 
 
@@ -59,7 +64,7 @@ In the terminal, run the following command:
 grunt preview
 ```
 
-Open up your browser of choice and navigate to [this page](https://preview.mobify.com/?url=http%3A%2F%2Fwww.mobify.com&site_folder=http%3A%2F%2Flocalhost%3A8080%2Fadaptive.js&disabled=0&domain=&scope=1). Click the **"Preview"** button, as per the below screenshot:
+Open up your browser of choice and navigate to [this page](https://preview.mobify.com/?url=http%3A%2F%2Fwww.merlinspotions.com%2F&site_folder=http%3A%2F%2Flocalhost%3A8080%2Fadaptive.js&disabled=0&domain=&scope=1). Click the **"Preview"** button, as per the below screenshot:
 
 {INSERT IMAGE OF PREVIEW PAGE POINTING TO BUTTON}
 
