@@ -1,0 +1,87 @@
+// tabs
+// ===
+
+// Configurable Variables
+// ---
+
+$tabs__bg-color: #fff !default;
+
+
+// Dependencies
+// ---
+
+@import 'stencil-variables/variables';
+@import 'level/level';
+
+
+// Tabs root
+// ---
+
+.c-tabs {}
+
+
+// Tab strip
+// ---
+
+.c-tabs__strip {
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 0 $unit*0.5;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-top: 1px solid $border-color;
+    }
+}
+
+
+// Tab
+// ---
+
+.c-tabs__tab {
+    position: relative;
+    display: block;
+    flex: 1;
+    width: 100%;
+
+    > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: $tap-size;
+        padding: $unit*0.5 $unit;
+        border: solid transparent;
+        text-decoration: none;
+    }
+
+    &.c--is-selected {
+        z-index: 10;
+
+        > a {
+            background: $tabs__bg-color;
+            border-color: $border-color;
+            border-width: 1px 1px 0 1px;
+        }
+    }
+}
+
+
+// Tabpane
+// ---
+
+.c-tabs__pane {
+    display: none;
+    background: $tabs__bg-color;
+    padding: $unit*2 $unit*1.5;
+
+    &.c--is-selected {
+        display: block;
+    }
+}

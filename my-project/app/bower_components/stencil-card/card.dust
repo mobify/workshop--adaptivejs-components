@@ -1,0 +1,26 @@
+<section class="c-card {class}"
+    {?id}id="{id}"{/id}
+    {?dynamic}data-adaptivejs-component="stencil-card"{/dynamic}
+>
+    <header class="c-card__header {class}">
+        {?header}
+            {header}
+        {:else}
+            <h2 class="c-card__title">{title}</h2>
+        {/header}
+    </header>
+
+    <div class="c-card__body">
+        {body}
+    </div>
+
+    <footer class="c-card__footer">
+        {?footer}
+            {footer}
+        {:else}
+            {#actions}
+                {@c-card__action ctx=.}{label}{/c-card__action}
+            {/actions}
+        {/footer}
+    </footer>
+</section>
