@@ -35,11 +35,11 @@
     "stencil-spec": "mobify/stencil-spec#dev"
   },
   "homepage": "https://github.com/mobify/stencil-card",
-  "_release": "bef962e6e7",
+  "_release": "3855e62104",
   "_resolution": {
     "type": "branch",
     "branch": "dev",
-    "commit": "bef962e6e7a86fa8a2c6efeb4feefbab2e182ca6"
+    "commit": "3855e62104e342fe13b5f2d06aa15676d7d87cfb"
   },
   "_source": "git://github.com/mobify/stencil-card.git",
   "_target": "dev",
