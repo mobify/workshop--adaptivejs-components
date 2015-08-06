@@ -74,4 +74,10 @@ Once the preview site loads, you should see the Homepage template fully rendered
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-2-customize-markup/README.md).
+1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the project set up branch:
+
+    ```
+    git checkout part-1-install-components
+    ```
+
+2. Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-2-customize-markup/README.md).
