@@ -40,7 +40,7 @@ Once you install the workshop, you're ready to move on to the next step.
 1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the project set up branch:
 
     ```
-    git checkout step-1
+    git checkout intro-1-adaptive-components
     ```
 
 2. Now, follow this link to the directions in the set up branch [README](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-1-adaptive-components/README.md).
