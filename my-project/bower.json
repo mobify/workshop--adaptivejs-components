@@ -1,14 +1,16 @@
 {
-    "name": "my-project",
-    "version": "1.0.0",
-    "dependencies": {
-        "imageresize": "git://github.com/mobify/imageresize-client.git#1.0.2",
-        "fastclick": "git://github.com/mobify/fastclick.git#1.0.7",
-        "descript": "~1.0.0",
-        "deckard": "~1.0.0",
-        "dustjs-linkedin": "2.3.3",
-        "spline": "~1.0",
-        "stencil-variables": "mobify/stencil-variables",
-        "level": "~0.1.0"
-}
+  "name": "my-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "imageresize": "git://github.com/mobify/imageresize-client.git#1.0.2",
+    "fastclick": "git://github.com/mobify/fastclick.git#1.0.7",
+    "descript": "~1.0.0",
+    "deckard": "~1.0.0",
+    "dustjs-linkedin": "2.3.3",
+    "spline": "~1.0",
+    "stencil-variables": "mobify/stencil-variables",
+    "level": "~0.1.0",
+    "stencil-card": "git://github.com/mobify/stencil-card.git#dev",
+    "stencil-tabs": "git://github.com/mobify/stencil-tabs.git#dev"
+  }
 }

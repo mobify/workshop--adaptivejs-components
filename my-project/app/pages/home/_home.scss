@@ -6,9 +6,12 @@
 
     font-size: $font-size;
     color: $font-color;
-    text-align: center;
 
     p {
         margin: $unit 0;
     }
+}
+
+.t-home__section {
+    margin: $unit*3 0;
 }
