@@ -1,0 +1,75 @@
+// card
+// ===
+
+// Configurable Variables
+// ---
+
+// $card__variable-name: true !default;
+$card__draw-shadow: true !default;
+
+
+// Dependencies
+// ---
+
+@import 'stencil-variables/variables';
+@import 'level/level';
+
+
+// Card root
+// ---
+
+.c-card {
+    background: #fff;
+
+    @if $card__draw-shadow {
+        box-shadow: 0 3px 12px hsla(0, 0%, 0%, 0.35);
+    }
+}
+
+
+// Card header
+// ---
+
+.c-card__header {
+    padding: $unit*1.5;
+}
+
+// Card title
+// ---
+
+.c-card__title {
+    margin: 0;
+}
+
+
+// Card body
+// ---
+
+.c-card__body {
+    padding: 0 $unit*1.5;
+}
+
+
+// Card footer
+// ---
+
+.c-card__footer {
+    display: flex;
+    padding: $unit*0.5;
+}
+
+
+// Card action
+// ---
+
+.c-card__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: $tap-size;
+    padding: $unit*0.5 $unit;
+    border: 0;
+
+    text-decoration: none;
+    -webkit-appearance: none;
+}

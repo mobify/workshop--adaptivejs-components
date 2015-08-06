@@ -1,0 +1,48 @@
+{
+  "name": "stencil-card",
+  "description": "A grouping element for unique, related data, often shown in a collection",
+  "authors": [
+    "Mobify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mobify/stencil-card.git"
+  },
+  "keywords": [
+    "mobify",
+    "components",
+    "patterns"
+  ],
+  "license": "MIT",
+  "main": [
+    "card.dust"
+  ],
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "Gruntfile.js",
+    "Gemfile",
+    "Gemfile.lock",
+    "tests"
+  ],
+  "dependencies": {
+    "stencil-variables": "mobify/stencil-variables#*",
+    "level": ">=0.1.0",
+    "spline": "~1.0.1"
+  },
+  "devDependencies": {
+    "stencil-spec": "mobify/stencil-spec#dev"
+  },
+  "homepage": "https://github.com/mobify/stencil-card",
+  "_release": "bef962e6e7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "dev",
+    "commit": "bef962e6e7a86fa8a2c6efeb4feefbab2e182ca6"
+  },
+  "_source": "git://github.com/mobify/stencil-card.git",
+  "_target": "dev",
+  "_originalSource": "git://github.com/mobify/stencil-card.git",
+  "_direct": true
+}
