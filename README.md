@@ -66,7 +66,8 @@ grunt preview
 
 Open up your browser of choice and navigate to [this page](https://preview.mobify.com/?url=http%3A%2F%2Fwww.merlinspotions.com%2F&site_folder=http%3A%2F%2Flocalhost%3A8080%2Fadaptive.js&disabled=0&domain=&scope=1). Click the **"Preview"** button, as per the below screenshot:
 
-{INSERT IMAGE OF PREVIEW PAGE POINTING TO BUTTON}
+![Screemshot of the Mobify Preview Form]
+(https://dl.dropboxusercontent.com/u/4782540/Mobify/Workshop/mobify-preview-form-screenshot.png)
 
 Once the preview site loads, you should see the Homepage template fully rendered along with the two Stencil components we added above!
 
