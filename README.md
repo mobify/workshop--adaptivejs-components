@@ -89,9 +89,11 @@ As you can see, we've added some pretty straight forward theme styles to our Ste
 In `home.dust`, let's add a new card below what we added in the previous steps:
 
 ```html
-{@c-card class="c--brand" title="My Themed Card"}
-    <p>My oh my, aren't I pretty card?</p>
-{/c-card}
+<div class="t-home__section">
+    {@c-card class="c--brand" title="My Themed Card"}
+        <p>My oh my, aren't I pretty card?</p>
+    {/c-card}
+</div>
 ```
 
 Now refresh your preview in the browser and observe the new styles!
@@ -106,11 +108,22 @@ Add the following in `_card-theme.scss`, just before the `.c-card.c--brand` CSS 
     box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
-.c-card__actions {
-    text-align: left;
+.c-card__footer {
+    border-top: $border;
+}
 
-    &:not(:first-child) {
-        border-top: 1px dashed rgba(0, 0, 0, 0.25);
+.c-card__action {
+    border: 0;
+    background: none;
+
+    color: $brand-color;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+    &:active {
+        background: transparentize($brand-color, 0.9);
     }
 }
 ```
