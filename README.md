@@ -135,4 +135,10 @@ Once again, refresh your preview in the browser to observe that our changes abov
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-4-create-new-component/README.md).
+1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the project set up branch:
+
+    ```
+    git checkout part-4-create-new-component
+    ```
+
+2. Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-4-create-new-component/README.md).
