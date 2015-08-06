@@ -61,4 +61,10 @@ Of course, there are many different ways that a component might look, but we’l
 
 ## Done! Onward!
 
-Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-2-stencil/README.md).
+1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the project set up branch:
+
+    ```
+    git checkout intro-2-stencil
+    ```
+
+2. Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-2-stencil/README.md).
