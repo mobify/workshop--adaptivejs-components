@@ -101,4 +101,4 @@ Now open up your browser, refresh and confirm that all of our bodies (header, de
     git checkout part-3-customize-style
     ```
 
-2. Proceed to [Customizing the Card Component](https://github.com/mobify/workshop--adaptivejs-components/blob/part-3-customize-style/README.md), the fourth topic in the workshop!
+2. Proceed to [Customizing the Card Component](https://github.com/mobify/workshop--adaptivejs-components/blob/part-3-customize-style/README.md), the 3rd topic in the workshop!
