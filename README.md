@@ -5,7 +5,7 @@ Now that we understand what Adaptive and Stencil components are, let's get our h
 
 ## Installing Stencil Components
 
-Open up your Terminal and change to the project directory that we've pre-generated for you.
+Open up your Terminal and navigate to the project directory that we've pre-generated for you.
 
 ```
 cd my-project
@@ -27,14 +27,14 @@ grunt component:install:tabs --branch dev
 
 > __Note__ The `grunt component` command must be executed from inside an Adaptive.js project
 
-What this command does is install the Stencil component via Bower and "auto-magically" modify the necessary files to ensure that the component can be used right away.
+The `grunt component:install:` command installs a Stencil component via Bower and "auto-magically" modifies the necessary files to ensure that the component can be used right away.
 
 
 ## Add the Stencils to a Template
 
-Now we've installed our two Stencil components, let's go ahead and add them to a template file.
+Now that we've installed our two Stencil components, let's go ahead and add them to a template file.
 
-Open `/my-project/app/pages/home/home.dust` in your editor of choice. In it, add the following:
+Open `/my-project/app/pages/home/home.dust` in your text editor of choice and add the following:
 
 ```html
 <div class="t-home__section">
@@ -66,18 +66,18 @@ grunt preview
 
 Open up your browser of choice and navigate to [this page](https://preview.mobify.com/?url=http%3A%2F%2Fwww.merlinspotions.com%2F&site_folder=http%3A%2F%2Flocalhost%3A8080%2Fadaptive.js&disabled=0&domain=&scope=1). Click the **"Preview"** button, as per the below screenshot:
 
-![Screemshot of the Mobify Preview Form]
+![Screenshot of the Mobify Preview Form]
 (https://dl.dropboxusercontent.com/u/4782540/Mobify/Workshop/mobify-preview-form-screenshot.png)
 
-Once the preview site loads, you should see the Homepage template fully rendered along with the two Stencil components we added above!
+Once the preview site loads, you should see the homepage template fully rendered along with the two Stencil components we added above!
 
 
 ## Done! Onward!
 
-1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the project set up branch:
+1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the next topic in the workshop:
 
     ```
     git checkout part-2-customize-markup
     ```
 
-2. Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-2-customize-markup/README.md).
+2. Proceed to [Customizing Markup](https://github.com/mobify/workshop--adaptivejs-components/blob/part-2-customize-markup/README.md), the fourth topic in the workshop!
