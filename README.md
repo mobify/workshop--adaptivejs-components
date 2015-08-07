@@ -4,9 +4,9 @@
 
 Congratulations! We're all done :)
 
-Through out this workshop, you learned the basics of what Adaptive Components are, the difference between local Adaptive Components are reusable Stencil components, how to customize Stencil components, and how to create new local components from scratch.
+Throughout this workshop, we've learned the basics of what Adaptive Components are, the difference between local Adaptive Components and reusable Stencil components, how to customize Stencil components, and how to create new local components.
 
-If you would like to learn more, see below for further reading as well as Mobify's official documentation on Adaptive Components and Stencil.
+If you would like to learn more, see below for further reading, or take a look at Mobify's official documentation on Adaptive Components and Stencil.
 
 
 ## Further Reading & Resources
