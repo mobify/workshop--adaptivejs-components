@@ -149,4 +149,4 @@ Once again, refresh your browser to observe how our changes above have effected 
     git checkout part-4-create-new-component
     ```
 
-3. Proceed to [Creating a New Component](https://github.com/mobify/workshop--adaptivejs-components/blob/part-4-create-new-component/README.md), the fourth and final topic in the workshop! 
+3. Proceed to [Create a New Component](https://github.com/mobify/workshop--adaptivejs-components/blob/part-4-create-new-component/README.md), the fourth and final topic in the workshop! 
