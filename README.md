@@ -1,18 +1,18 @@
 # Part 3: Customize the Card Component Style
 
-Now that we've customized out Card component's markup using component bodies, we're ready to move on to the next step: __customize the component style__.
+Now that we've customized our Card component's markup using component bodies, we're ready to move on to the next step: __customizing the component style__.
 
-By default, Stencil components come pre-baked with some very simple boilerplate CSS. These can be overridden at any time in two different ways:
+By default, Stencil components come pre-baked with some very simple boilerplate CSS that can be overridden at any time in two different ways:
 
 1. Override the Stencil configurable variables
 2. Create a Stencil Theme `SCSS` file
 
-We will go through how to do each of these in detail below.
+We'll go through how to do both in detail below.
 
 
 ## Customize Configurable Variables
 
-In your text editor open `/app/global/styles/_variables.scss`.
+In your text editor, open `/app/global/styles/_variables.scss`.
 
 At the bottom, add the following:
 
@@ -21,18 +21,18 @@ $card__background: $neutral-30;
 $card__padding: $unit;
 ```
 
-These are examples of configuration variables. They can range from configuring the component's colors, to box-model dimensions (`height`, `width`, `border`, etc.), to font styles and more. Which variables a Stencil component will have varies from component to component.
+These are examples of configuration variables. They can configure a component's colors, box-model dimensions (`height`, `width`, `border`, etc.), font styles and more. The variables that a Stencil uses varies from component to component.
 
 
 ## Create and Import a Component Theme Stylesheet
 
-Open up terminal. At this point in the workshop your command line terminal should still be at the workshop's pre-generated Adaptive project directory (`/my-project`). From there, change to the `components` directory:
+Open up terminal. At this point in the workshop, you should still be in your pre-generated Adaptive project directory (`/my-project`). From there, change to the `components` directory:
 
 ```
 cd app/components/
 ```
 
-Create a new directory named after our Stencil component in the workshop's Adaptive project and change to it:
+Create a new directory named after our Stencil component in the workshop's Adaptive project and navigate to it:
 
 ```
 mkdir stencil-card && cd stencil-card
@@ -44,7 +44,7 @@ Next, create a new `SCSS` file for our theme styles:
 touch _card-theme.scss
 ```
 
-Open up the newly created `_card-theme.scss` file in your text editor. We aren't going to edit it just yet, but we will shortly.
+Open up the newly created `_card-theme.scss` file in your text editor. We'll edit this shortly.
 
 Open the global components `SCSS` file in your text editor, found at `/app/global/styles/_component.scss`. Add the following as a new line:
 
@@ -86,7 +86,7 @@ In your text editor, return to the `_card-theme.scss` file. Add the following:
 
 As you can see, we've added some pretty straight forward theme styles to our Stencil component! Now when we use our component in a template, we can include any of the above modifier classes.
 
-In `home.dust`, let's add a new card below what we added in the previous steps:
+In `home.dust`, let's add a new card below our current code:
 
 ```html
 <div class="t-home__section">
@@ -96,9 +96,9 @@ In `home.dust`, let's add a new card below what we added in the previous steps:
 </div>
 ```
 
-Now refresh your preview in the browser and observe the new styles!
+Refresh your preview in the browser and observe the new styles!
 
-So, it is worth noting that we are not limited to writing CSS for just "themes" of course. This is also the place for where you customize the look and feel of the component to make it match the design of your project! This is true for the component itself and any sub-components.
+It is worth noting that we are not limited to writing CSS for just "themes". This is also the place for where you customize the look and feel of the component to make it match the design of your project! This is true for the component itself and any sub-components.
 
 Add the following in `_card-theme.scss`, just before the `.c-card.c--brand` CSS block:
 
@@ -130,7 +130,7 @@ Add the following in `_card-theme.scss`, just before the `.c-card.c--brand` CSS 
 
 > _**Remember** there is no need to define the padding or default background color, as we did that with the configurable variables, above._
 
-Once again, refresh your preview in the browser to observe that our changes above have effected all of the cards.
+Once again, refresh your browser to observe how our changes above have effected the cards.
 
 
 ## Done! Onward!
@@ -138,15 +138,15 @@ Once again, refresh your preview in the browser to observe that our changes abov
 1. Enter following command on the command line in Terminal:
 
     ```
-    git reset --hard HEAD && git clean -df 
+    git reset --hard HEAD && git clean -df
     ```
-    
+
     This command resets the branch. The end result of this command is that only the first folder is now the location of the project files.
 
-2. Now run the following command to proceed to the project set up branch:
+2. Now run the following command to proceed to the next topic in the workshop:
 
     ```
     git checkout part-4-create-new-component
     ```
 
-2. Now, follow this link to the directions in the next branch's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/part-4-create-new-component/README.md).
+3. Proceed to [Creating a New Component](https://github.com/mobify/workshop--adaptivejs-components/blob/part-4-create-new-component/README.md), the fourth and final topic in the workshop! 
