@@ -35,4 +35,4 @@ In the following sections, we are going to learn how to install these Stencil co
     git checkout part-1-install-components
     ```
 
-2. Proceed to [Installing Components](https://github.com/mobify/workshop--adaptivejs-components/blob/part-1-install-components/README.md), the third topic in the workshop!
+2. Proceed to [Installing Components](https://github.com/mobify/workshop--adaptivejs-components/blob/part-1-install-components/README.md), the first topic in the workshop!
