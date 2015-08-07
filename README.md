@@ -139,10 +139,4 @@ Observe how the first badge on the preview page will update to read "38"!
 
 ## Done! Onward!
 
-1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the project set up branch:
-
-    ```
-    git checkout conclusion
-    ```
-
-2. Now, follow this link to the directions in the last step's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/conclusion/README.md).
+Now, follow this link to the directions in the last step's [README](https://github.com/mobify/workshop--adaptivejs-components/blob/conclusion/README.md).
