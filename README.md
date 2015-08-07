@@ -74,10 +74,18 @@ Once the preview site loads, you should see the homepage template fully rendered
 
 ## Done! Onward!
 
-1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the next topic in the workshop:
+1. Enter following command on the command line in Terminal:
+
+    ```
+    git reset --hard HEAD && git clean -df 
+    ```
+    
+    This command resets the branch. The end result of this command is that only the first folder is now the location of the project files.
+
+2. Now run the following command to proceed to the next topic in the workshop:
 
     ```
     git checkout part-2-customize-markup
     ```
 
-2. Proceed to [Customizing Markup](https://github.com/mobify/workshop--adaptivejs-components/blob/part-2-customize-markup/README.md), the fourth topic in the workshop!
+3. Proceed to [Customizing Markup](https://github.com/mobify/workshop--adaptivejs-components/blob/part-2-customize-markup/README.md), the fourth topic in the workshop!
