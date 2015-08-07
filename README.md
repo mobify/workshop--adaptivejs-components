@@ -67,4 +67,4 @@ Of course, there are many different ways that a component might be structured, w
     git checkout intro-2-stencil
     ```
 
-2. Proceed to [Intro to Stencil](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-2-stencil/README.md), the second topic in the workshop!
+2. Proceed to [Intro to Stencil](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-2-stencil/README.md), the second half of the workshop intro!
