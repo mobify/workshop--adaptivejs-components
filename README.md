@@ -47,4 +47,4 @@ Once you install the workshop, you're ready to move on to the next step.
     git checkout intro-1-adaptive-components
     ```
 
-2. Proceed to [Introduction to Adaptive Components](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-1-adaptive-components/README.md), the first topic in the workshop, .
+2. Proceed to [Introduction to Adaptive Components](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-1-adaptive-components/README.md), the first topic in the workshop.
