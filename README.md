@@ -95,13 +95,12 @@ Now open up your browser, refresh and confirm that all of our bodies (header, de
 
 ## Done! Onward!
 
-1. Enter following command on the command line in Terminal:
+1. Enter following command on the command line in Terminal to reset the branch:
 
     ```
     git reset --hard HEAD && git clean -df 
     ```
-    
-    This command resets the branch. The end result of this command is that only the first folder is now the location of the project files.
+
 
 2. Now run the following command to proceed to the next topic in the workshop:
 
