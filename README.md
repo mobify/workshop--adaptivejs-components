@@ -135,7 +135,15 @@ Once again, refresh your preview in the browser to observe that our changes abov
 
 ## Done! Onward!
 
-1. In the `workshop--adaptivejs-components` directory, run the following command to proceed to the project set up branch:
+1. Enter following command on the command line in Terminal:
+
+    ```
+    git reset --hard HEAD && git clean -df 
+    ```
+    
+    This command resets the branch. The end result of this command is that only the first folder is now the location of the project files.
+
+2. Now run the following command to proceed to the project set up branch:
 
     ```
     git checkout part-4-create-new-component
