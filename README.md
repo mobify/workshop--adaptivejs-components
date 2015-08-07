@@ -80,4 +80,4 @@ Once the preview site loads, you should see the homepage template fully rendered
     git checkout part-2-customize-markup
     ```
 
-2. Proceed to [Customizing Markup](https://github.com/mobify/workshop--adaptivejs-components/blob/part-2-customize-markup/README.md), the fourth topic in the workshop!
+2. Proceed to [Customizing Markup](https://github.com/mobify/workshop--adaptivejs-components/blob/part-2-customize-markup/README.md), the second topic in the workshop!
