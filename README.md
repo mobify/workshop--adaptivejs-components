@@ -80,7 +80,7 @@ Once the preview site loads, you should see the homepage template fully rendered
     git reset --hard HEAD && git clean -df
     ```
 
-    This command resets the branch. The end result of this command is that only the first folder is now the location of the project files.
+    This command resets the branch so that you can start fresh at the next step of the workshop.
 
 2. Now run the following command to proceed to the next topic in the workshop:
 
