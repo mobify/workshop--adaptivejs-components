@@ -23,9 +23,11 @@ As well as...
 grunt component:install:tabs --branch dev
 ```
 
-> __Note__ When Adaptive components are out of beta, the `--branch dev` flag won’t be needed.
+> __Note__ *When Adaptive components are out of beta, the `--branch dev` flag won’t be needed. This is temporary and will not be used in ordinary circumstances.*
+>
+> *What does the flag do? When you install a Stencil component using the `grunt component:install:` the component is pulled down from it's Github repo. By default, the component is pulled down from it's master branch. As such, the `--branch` flag allows you to choose an altenative branch to pull from. So using `--branch dev` will pull the component down from the component's `dev` branch in Github.*
 
-> __Note__ The `grunt component` command must be executed from inside an Adaptive.js project
+> __Note__ *The `grunt component` command must be executed from inside an Adaptive.js project*
 
 The `grunt component:install:` command installs a Stencil component via Bower and "auto-magically" modifies the necessary files to ensure that the component can be used right away.
 
