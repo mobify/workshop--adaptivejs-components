@@ -74,6 +74,15 @@ Open up your browser of choice and navigate to [this page](https://preview.mobif
 Once the preview site loads, you should see the homepage template fully rendered along with the two Stencil components we added above!
 
 
+## Component Dust Helper Syntax
+
+You may be wondering what all the above weird looking Dust markup is all about. Well, it's a Dust helper that we created to make components easier to work with. The `@` symbol is Dust's way of using helpers, and the text that follows it is what helper is being invoked. For example, `{@getUrl path="..."}` is how you invoke the `getUrl` helper, to which you pass data through parameters like `path`. Likewise, our component Dust helper is the same! `{@c-my-component /}` invokes the component Dust helper which is calling the `my-component` component.
+
+Before creating the component helper, Dust did not have a good way to reuse component markup. Dust does have partials (i.e. `{>'path/to/partial/template' /}`), but partials lack power and features, such as the ability to isolate component context from page context.
+
+We'll learn in the upcoming steps the many ways we can use the component helper to great effect!
+
+
 ## Done! Onward!
 
 1. Enter following command on the command line in Terminal:
