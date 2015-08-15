@@ -23,6 +23,12 @@ $card__padding: $unit;
 
 These are examples of configuration variables. They can configure a component's colors, box-model dimensions (`height`, `width`, `border`, etc.), font styles and more. The variables that a Stencil uses varies from component to component.
 
+### What are Configurable Variables?
+
+When talking about the styles of Stencil Components, "configurable variables" refer to variables that have been predefined in a Stencil's `scss` file and are intended to be overridable by developers when used on a project.
+
+The reason there are configurable variables is simply because we wanted to provide meaningful styles for our Stencil components so that when used right out of the box, they work right away with no need to add any setup styles. As nice as it is for a component to work straight out of the box, it is reasonable to assume that designers will want a component to take on certain aesthetic qualities to fulfill their role in a design, so we ensure that the simplest and most basic styles can be overwritten as easily as is reasonably possible.
+
 
 ## Create and Import a Component Theme Stylesheet
 
