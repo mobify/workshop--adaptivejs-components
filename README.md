@@ -76,9 +76,9 @@ Once the preview site loads, you should see the homepage template fully rendered
 
 ## Component Dust Helper Syntax
 
-You may be wondering what all the above weird looking Dust markup is all about. Well, it's a Dust helper that we created to make components easier to work with. The `@` symbol is Dust's way of using helpers, and the text that follows it is what helper is being invoked. For example, `{@getUrl path="..."}` is how you invoke the `getUrl` helper, to which you pass data through parameters like `path`. Likewise, our component Dust helper is the same! `{@c-my-component /}` invokes the component Dust helper which is calling the `my-component` component.
+You may be wondering what all the above weird looking Dust markup is all about. You may realize that there is nothing like the above syntax mentioned in any Dust documentation that you'll find online. Well that's because it's a custom Dust helper that we created at Mobify. It was made to make easier to use the components we create in Adaptive.js projects.
 
-Before creating the component helper, Dust did not have a good way to reuse component markup. Dust does have partials (i.e. `{>'path/to/partial/template' /}`), but partials lack power and features, such as the ability to isolate component context from page context.
+You can recognize that an element is a Dust helper by the `@` symbol used at the start of the tag name. For example, `{@getUrl path="..."}` is how you invoke the `getUrl` helper. Our component Dust helper is more or less the same: `{@c-my-component /}` invokes the component Dust helper, which then renders the `my-component` component.
 
 We'll learn in the upcoming steps the many ways we can use the component helper to great effect!
 
