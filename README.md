@@ -74,15 +74,6 @@ Open up your browser of choice and navigate to [this page](https://preview.mobif
 Once the preview site loads, you should see the homepage template fully rendered along with the two Stencil components we added above!
 
 
-## Component Dust Helper Syntax
-
-You may be wondering what all the above weird looking Dust markup is all about. You may realize that there is nothing like the above syntax mentioned in any Dust documentation that you'll find online. Well that's because it's a custom Dust helper that we created at Mobify. It was made to make easier to use the components we create in Adaptive.js projects.
-
-You can recognize that an element is a Dust helper by the `@` symbol used at the start of the tag name. For example, `{@getUrl path="..."}` is how you invoke the `getUrl` helper. Our component Dust helper is more or less the same: `{@c-my-component /}` invokes the component Dust helper, which then renders the `my-component` component.
-
-We'll learn in the upcoming steps the many ways we can use the component helper to great effect!
-
-
 ## Done! Onward!
 
 1. Enter following command on the command line in Terminal:
