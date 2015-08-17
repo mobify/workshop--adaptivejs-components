@@ -1,0 +1,19 @@
+{
+  "name": "workshop--adaptivejs-components",
+  "version": "0.0.0",
+  "description": "Workshop for learning how to build Adaptive.js component",
+  "main": "README.md",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobify/workshop--adaptivejs-components.git"
+  },
+  "author": "Mobify",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mobify/workshop--adaptivejs-components/issues"
+  },
+  "homepage": "https://github.com/mobify/workshop--adaptivejs-components"
+}
