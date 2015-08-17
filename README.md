@@ -58,6 +58,14 @@ As a very simple example, the code below shows what it might look like if you we
 
 Of course, there are many different ways that a component might be structured, we’ll look at all the ways components work in-depth later.
 
+> **What's that Syntax?**
+>
+> _You may be wondering what the above unfamiliar Dust markup (`{@c-select}` and so on...) is all about and you may have noticed that there is no official Dust documentation for that syntax. That's because it's a custom Dust helper that we created specifically for Adaptive.js projects. It's purpose is to make components easier to work with in Dust templates._
+>
+> _Dust helpers can be recognized by the `@` symbol used at the start of the tag name. For example, `{@getUrl path="..."}` is how you invoke the `getUrl` helper. Our component Dust helper is more or less the same: `{@c-my-component /}` invokes the component Dust helper, which then renders the `my-component` component._
+>
+> _We'll learn in the upcoming steps the many ways we can use the component helper to great effect!_
+
 
 ## Done! Onward!
 
