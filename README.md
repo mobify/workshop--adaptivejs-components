@@ -47,10 +47,18 @@ Follow the installation steps in the **Workshop Pre-requisites** section below t
 
 Once you install the workshop, you're ready to move on to the next step.
 
-1. In the `workshop--adaptivejs-components` directory, run the following command in your terminal to checkout to the first step of the workshop:
+1. Enter following command on the command line in Terminal:
+
+    ```
+    git reset --hard HEAD && git clean -df
+    ```
+
+    This command resets the branch so that you can start fresh at the next step of the workshop.
+
+2. In the `workshop--adaptivejs-components` directory, run the following command in your terminal to checkout to the first step of the workshop:
 
     ```
     git checkout intro-1-adaptive-components
     ```
 
-2. Proceed to [Introduction to Adaptive Components](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-1-adaptive-components/README.md), the first topic in the workshop.
+3. Proceed to [Introduction to Adaptive Components](https://github.com/mobify/workshop--adaptivejs-components/blob/intro-1-adaptive-components/README.md), the first topic in the workshop.
