@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mobify/workshop--adaptivejs-components/issues"
   },
-  "homepage": "https://github.com/mobify/workshop--adaptivejs-components"
+  "homepage": "https://github.com/mobify/workshop--adaptivejs-components",
+  "dependencies": {
+    "generator-adaptivejs": "2.1.0-beta1"
+  }
 }
