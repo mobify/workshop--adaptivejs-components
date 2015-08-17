@@ -11,7 +11,7 @@ Follow the installation steps in the **Workshop Pre-requisites** section below t
 
 ## Workshop Pre-Requisites
 
-1. [Install Git](http://git-scm.com/downloads) because we'll be using it to move through each topic in the workshop. Make sure to look through some of [the documentation](http://git-scm.com/documentation) if you're not already familiar with how Git works.
+1. [Install Git](http://git-scm.com/downloads), which we use to move through each topic in the workshop. Make sure to look through some of [the documentation](http://git-scm.com/documentation) if you're not already familiar with how Git works.
 
 2. If you haven't already, [Install the Adaptive.js SDK](http://adaptivejs.mobify.com/docs/1-install-the-adaptivejs-sdk) onto your computer.
 
