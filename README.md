@@ -66,7 +66,7 @@ In the terminal, run the following command:
 grunt preview
 ```
 
-Open up your browser of choice and navigate to [this page](https://preview.mobify.com/?url=http%3A%2F%2Fwww.merlinspotions.com%2F&site_folder=http%3A%2F%2Flocalhost%3A8080%2Fadaptive.js&disabled=0&domain=&scope=1). Click the **"Preview"** button, as per the below screenshot:
+Open up your browser of choice and navigate to [this page](https://preview.mobify.com/?url=http%3A%2F%2Ftraining.merlinspotions.com%2F&site_folder=http%3A%2F%2Flocalhost%3A8080%2Fadaptive.js&disabled=0&domain=&scope=1). Click the **"Preview"** button, as per the below screenshot:
 
 ![Screenshot of the Mobify Preview Form]
 (https://dl.dropboxusercontent.com/u/4782540/Mobify/Workshop/mobify-preview-form-screenshot.png)
