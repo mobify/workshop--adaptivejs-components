@@ -121,7 +121,7 @@ Open up `my-project/app/pages/home.dust` in your text editor and replace the `{<
 
 Next, open up your browser and visit the following page: [https://goo.gl/8YnP6J](https://goo.gl/8YnP6J). Once there, click the "Preview" button. You should arrive on a preview page that looks like the following:
 
-![Screenshot of the preview page](https://dl.dropboxusercontent.com/u/4782540/Mobify/Workshop/preview-screenshot%401x.png)
+<img src="/img/badges.png?raw=true" height="300"/>
 
 Notice our three example badge components!
 
