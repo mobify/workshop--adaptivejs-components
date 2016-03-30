@@ -5,7 +5,7 @@
         "url": "http://github.com/mobify/my-project"
     },
     "private": true,
-    "siteUrl": "www.merlinspotions.com",
+    "siteUrl": "training.merlinspotions.com",
     "version": "0.0.1",
     "dependencies": {
         "adaptivejs": "~2.1.0-beta2",
